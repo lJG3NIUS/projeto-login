@@ -20,7 +20,7 @@ azul super claro: - #4F42FF
 box-sizing = border-box = a borda faça parte da conta de largura
 */
 
-@media screen and (min-width:800px) and (max-width:992px){
+@media screen and (min-width:992px) {
     
     body{
         background-image: linear-gradient(to top,#160E80,#1100FF,#4F42FF);
