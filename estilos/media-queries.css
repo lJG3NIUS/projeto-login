@@ -28,6 +28,7 @@ box-sizing = border-box = a borda faça parte da conta de largura
     
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -51,6 +52,7 @@ box-sizing = border-box = a borda faça parte da conta de largura
     
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -69,7 +71,8 @@ box-sizing = border-box = a borda faça parte da conta de largura
     }
 
     div#formulario > p{
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
 
