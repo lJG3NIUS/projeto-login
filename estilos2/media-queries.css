@@ -20,54 +20,58 @@ azul super claro: - #4F42FF
 box-sizing = border-box = a borda faça parte da conta de largura
 */
 
-@media screen and (min-width:768px) and (max-width:992px){
+ @media screen and (min-width:768px) and (max-width:992px) {
+    
     body{
-        background-image: linear-gradient(to bottom,#160E80,#1100FF,#4F42FF );
+        background-image: linear-gradient(to top,#160E80,#1100FF,#4F42FF);
     }
-
+    
     section#login{
         width: 80vw;
-        height: 300px;
+        height: 280px;
     }
 
-    section#login > div#img{
+    section#login > div#imagem{
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    section#login > div#form{
+    section#login > div#formulario{
         float: right;
         width: 70%;
     }
 }
 
 @media screen and (min-width:992px){
-    body{
-        background-image: linear-gradient(to bottom,#160E80,#1100FF,#4F42FF );
-    }
 
+     
+    body{
+        background-image: linear-gradient(to top,#160E80,#1100FF,#4F42FF);
+    }
+    
     section#login{
         width: 950px;
         height: 350px;
     }
 
-    section#login > div#img{
+    section#login > div#imagem{
         float: right;
         width: 50%;
         height: 100%;
     }
 
-    section#login > div#form{
+    section#login > div#formulario{
         float: left;
         width: 50%;
     }
 
-    div#form > h1{
+    div#formulario > h1{
         font-size: 2em;
     }
 
-    div#form > p{
+    div#formulario > p{
         font-size: 1em;
+        margin: 20px 0px;
     }
 }
