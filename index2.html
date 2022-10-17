@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos2/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section id="log">
+            <div id="img"></div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="iemail"><span class="material-symbols-outlined">
+                            person
+                        </span></label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Endereço de email" maxlength="30" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="isen"><span class="material-symbols-outlined">
+                            vpn_key
+                        </span></label>
+                        <input type="password" name="sen" id="isen" required minlength="8" placeholder="Digite sua senha">
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="#">Esqueci a senha<span class="material-symbols-outlined">
+                        mail
+                    </span></a>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
